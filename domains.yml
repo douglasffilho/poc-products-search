@@ -1,0 +1,105 @@
+products:
+  sku
+  name
+  slugName
+  description
+  tags
+  type
+  composition
+  createdBy
+  createdAt
+  updatedBy
+  updatedAt
+  active
+
+prices:
+  sku
+  decimalSeparator
+  decimalScale
+  originalValue
+  platform
+  createdBy
+  createdAt
+
+offers:
+  id
+  name
+  discountPercent
+  discountAmount
+  rules
+  startDate
+  started
+  endDate
+  ended
+  sentToProcess
+  createdBy
+  createdAt
+  updatedBy
+  updatedAt
+
+sellingStatistics:
+  sku
+  lastMonthSales
+  lastWeekSales
+  perPlatform:
+    - platform
+      lastMonthSales
+      lastWeekSales
+
+productReviews:
+  sku
+  stars
+  quantity
+  reviews:
+    - id
+      customer
+      stars
+      comments
+      createdAt
+      approvedBy
+      approvedAt
+
+badges:
+  sku
+  labels
+  createdAt
+  createdBy
+
+searchProducts:
+  sku
+  name
+  slugName
+  description
+  prices:
+    - value
+      decimalSeparator
+      decimalScale
+      originalValue
+      platform
+  offer:
+    name
+    discountPercent
+    discountAmount
+  sellingStatistics:
+    total
+    score
+    lastMonthSales
+    lastWeekSales
+    perPlatform:
+      - platform
+        lastMonthSales
+        lastWeekSales
+        score
+  reviews:
+    stars
+    quantity
+    score
+  tags
+  badges
+  type
+  composition
+  updatedAt
+  updatedBy
+  createdBy
+  createdAt
+  active
