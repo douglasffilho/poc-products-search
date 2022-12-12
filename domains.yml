@@ -11,6 +11,7 @@ products:
   updatedBy
   updatedAt
   active
+  soldSeparately
 
 prices:
   sku
@@ -27,11 +28,13 @@ offers:
   discountPercent
   discountAmount
   rules
-  startDate
+  badges
+  platform
+  startAt
   started
-  endDate
+  endAt
   ended
-  sentToProcess
+  processed
   createdBy
   createdAt
   updatedBy
@@ -60,10 +63,18 @@ productReviews:
       approvedAt
 
 badges:
+  id
   sku
-  labels
+  label
+  platform
   createdAt
   createdBy
+  offerId
+  processed
+  startAt
+  started
+  endAt
+  ended
 
 searchProducts:
   sku
